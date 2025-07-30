@@ -1,3 +1,6 @@
+import Button from "./Button";
+import Tag from "./Tag";
+
 export default function HeroSection() {
   return (
     <section className="py-10 px-4 md:px-20 lg:px-20 bg-white">
@@ -6,9 +9,7 @@ export default function HeroSection() {
         {/*Left side*/}
         <div className="flex flex-col gap-6 lg:gap-8 lg:w-7/12 w-full">
           {/*Tag/Pill Badge*/}
-          <div className="inline-block self-start bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full mb-4">
-            <span>Seamless Integration</span>
-          </div>
+          <Tag>Seamless Integratiom</Tag>
 
           {/*Heading and Subheading */}
 
@@ -23,12 +24,8 @@ export default function HeroSection() {
 
           {/*Buttons*/}
           <div className="flex flex-row gap-3 mt-3">
-            <span className="bg-blue-600 text-white px-6 py-2 rounded shadow">
-              Get Started
-            </span>
-            <span className="bg-gray-200 text-black px-6 py-2 rounded">
-              Learn More
-            </span>
+            <Button variant="primary">Get Started</Button>
+            <Button variant="secondary">Learn More</Button>
           </div>
 
           {/*Ratings*/}
