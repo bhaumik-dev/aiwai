@@ -13,7 +13,7 @@ export default function HeroSection() {
 
           {/*Heading and Subheading */}
 
-          <h1 className="lg:text-6xl text-5xl font-bold leading-tight">
+          <h1 className="lg:text-6xl text-5xl font-bold leading-tighter">
             Make Web Accessible with AI Accessbility Insights
           </h1>
           <p className="text-gray-600 lg:text-xl text-lg leading-8">
