@@ -5,7 +5,7 @@ import Tag from "./Tag";
 const featuresData = [
   {
     title: "Impact",
-    subtitle: "Reach more people, make a bigger difference.",
+    subtitle: "Reach more people, make a difference.",
     imgSrc: "/impactimage.png",
     description:
       "Over 1 billion people worldwide live with some form of disability and number is slowly rising . An accessible website ensures you’re not excluding potential users, customers, or contributors.",
@@ -29,7 +29,7 @@ const featuresData = [
 export default function FeatureSection() {
   return (
     <section className="py-10 px-4 mt-4 mb-4 md:px-20 bg-white">
-      <div className="max-w-vw mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10 flex flex-col gap-1">
           <Tag className="mx-auto">Why Accessibility Matters?</Tag>
           <h2 className="text-4xl font-bold leading-tighter">
