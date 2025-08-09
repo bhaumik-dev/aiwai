@@ -20,12 +20,12 @@ export default function SolutionBlock({
   buttonright,
 }: SolutionBlock) {
   return (
-    <section className="w-full py-20 bg-gray-50">
+    <section className="w-full py-10 lg:py-20 bg-white">
       {/* Outer container */}
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         {/* Inner container */}
         <div
-          className={`flex flex-col items-center gap-8 md:flex-row ${
+          className={`flex lg:flex-row items-center gap-8 md:flex-col ${
             reversed ? "md:flex-row-reverse" : ""
           }`}
         >

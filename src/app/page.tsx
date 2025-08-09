@@ -1,7 +1,9 @@
 import Image from "next/image";
+import { DownloadIcon, MessageSquareIcon, AlertCircleIcon } from "lucide-react";
 import HeroSection from "@/components/HeroComponent";
 import FeatureSection from "@/components/FeatureSection";
 import SolutionBlock from "@/components/SolutionBlock";
+import StepsSection from "@/components/StepsSection";
 
 export default function Home() {
   return (
@@ -24,6 +26,27 @@ From keyboard navigation to color contrast, each fix makes your site smoother, m
         buttonleft="Run a Scan"
         buttonright="View Results"
       ></SolutionBlock>
+      <StepsSection
+        heading="Unlock Your Website's Full Potential"
+        subheading="Our tool simplifies website audits with a few clicks. Just enter your URL, and let our AI do the rest."
+        steps={[
+          {
+            icon: <DownloadIcon className="w-6 h-6" />,
+            title: "Step 1: Enter Your Website URL",
+            description: "Input the URL of the site you want to analyze.",
+          },
+          {
+            icon: <MessageSquareIcon className="w-6 h-6" />,
+            title: "Step 2: Receive Instant Analysis",
+            description: "Get immediate feedback on accessibility and SEO.",
+          },
+          {
+            icon: <AlertCircleIcon className="w-6 h-6" />,
+            title: "Step 3: Review Your Detailed Report",
+            description: "Explore the visual report with actionable insights.",
+          },
+        ]}
+      ></StepsSection>
     </main>
   );
 }

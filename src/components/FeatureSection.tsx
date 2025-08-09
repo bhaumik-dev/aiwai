@@ -28,7 +28,7 @@ const featuresData = [
 
 export default function FeatureSection() {
   return (
-    <section className="py-10 px-4 mt-4 mb-4 md:px-20 bg-white">
+    <section className="py-10 px-4 mt-4 mb-4 md:px-20 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10 flex flex-col gap-1">
           <Tag className="mx-auto">Why Accessibility Matters?</Tag>
